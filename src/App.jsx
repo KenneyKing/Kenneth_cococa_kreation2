@@ -1,29 +1,16 @@
-import './App.css';
-import kck_logo from "./images/kck_logo.png";
+import { Routes, Route } from "react-router-dom";
+import Layout from "./Layout";
+import Home from "./Home";
+import MyInfo from "./MyInfo";
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={kck_logo} alt="logo" />
-        <p>
-          Healthy original, vegan friendly cocoa for the holidays! <span className="heart"></span> React
-        </p>
-        <p className="small">
-          By: Kenneth Edward King II
-        </p>
-        <p>
-          <a
-            className="App-link"
-            href="https://reactjs.org"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            Learn More
-          </a>
-        </p>
-      </header>
-    </div>
+  <Routes>
+     <Route element={<Layout />}>
+         <Route path="/" element={<Home />}  />
+         <Route path="/myinfo" element={<MyInfo />}  />
+        </Route>
+     </Routes>
   );
 }
 
