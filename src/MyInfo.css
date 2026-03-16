@@ -1,0 +1,28 @@
+h1{
+    color:rgb(255, 0, 0)
+}
+p{
+    color:rgb(255, 255, 255)
+}
+body{
+  background-color: #413e3e;
+}
+
+.canva{
+max-width: 100%;
+position: static;
+ height: auto;
+  border:10px solid #ff0101;
+  border-radius: 5px;
+  padding: 5px;
+  width: 190px;
+ 
+}
+
+.picture{
+ display: flex;
+  justify-content: center;
+  align-items: center;
+   
+
+}
