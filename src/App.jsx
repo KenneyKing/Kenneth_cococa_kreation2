@@ -1,15 +1,16 @@
 import './App.css';
+import kck_logo from "./images/kck_logo.png";
 
 function App() {
   return (
     <div className="App">
       <header className="App-header">
-        <img src="Octocat.png" className="App-logo" alt="logo" />
+        <img src={kck_logo} alt="logo" />
         <p>
-          GitHub Codespaces <span className="heart">♥️</span> React
+          Healthy original, vegan friendly cocoa for the holidays! <span className="heart"></span> React
         </p>
         <p className="small">
-          Edit <code>src/App.jsx</code> and save to reload.
+          By: Kenneth Edward King II
         </p>
         <p>
           <a
@@ -18,7 +19,7 @@ function App() {
             target="_blank"
             rel="noopener noreferrer"
           >
-            Learn React
+            Learn More
           </a>
         </p>
       </header>
