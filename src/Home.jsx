@@ -1,4 +1,3 @@
-"homepage": "http//fireclient.github.io/kenneths_cocoa_kreations-app-react"
 import kck_logo from "./images/kck_logo.png";
 import './Home.css';
 
